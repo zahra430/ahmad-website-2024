@@ -83,15 +83,6 @@ img.packaging {
   width: 60%;
 }
 
-
-
-
-
-
-
-
-
-
 @media (max-width: 600px) {
   h1 {
     font-size: 14px;
@@ -116,6 +107,7 @@ img.packaging {
   .btn-customized {
     font-size: 10px;
   }
+
   div.cv {
     padding: 0px;
     margin: 0px;

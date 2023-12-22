@@ -83,6 +83,21 @@ img.packaging {
   width: 60%;
 }
 
+.contact-me {
+  font-size: 14px;
+}
+footer .linkedin-icon {
+  padding: 8px;
+  border-radius: 15px;
+  background: black;
+
+  color: var(--secondary-color);
+}
+footer .social-links i:hover {
+  background: black;
+  color: var(--primary-color);
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 14px;
@@ -96,6 +111,7 @@ img.packaging {
   p {
     font-size: 12px;
   }
+
   .about-me-wrapper {
     position: relative;
     margin: 10px 10px;

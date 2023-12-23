@@ -44,10 +44,10 @@ section {
   background: var(--primary-color);
 }
 div.cv {
-  padding: 0px 120px;
+  padding: 50px 180px;
   margin: 0px;
 }
-nav .last-update{
+nav .last-update {
   font-size: 12px;
   padding: 2px 0px 0px 450px;
 }
@@ -75,7 +75,7 @@ nav .last-update{
 .project-photos {
   margin: 10px 350px;
 }
-.big-letter{
+.big-letter {
   font-size: 30px;
 }
 .carousel-item {
@@ -91,30 +91,26 @@ img.packaging {
   width: 60%;
 }
 
-.contact-me {
-  font-size: 14px;
-}
-.go-top{
+.go-top {
   font-size: 12px;
   color: var(--main-color);
   background: var(--primary-color);
-  padding: 10px 20px;
-  text-align: center
-  ;
-  display: block;
-  margin: 0px 150px;
+  padding: 5px 10px;
+  text-align: center;
+  margin: 0 auto;
 }
 
-
-footer  a {
+footer a {
   font-size: 30px;
   padding: 8px;
   border-radius: 15px;
   color: #392a1a;
 }
 footer .social-links i:hover {
-  background: black;
   color: var(--primary-color);
+}
+footer .contact-me {
+  font-size: 14px;
 }
 
 @media (max-width: 600px) {
@@ -123,6 +119,9 @@ footer .social-links i:hover {
   }
   h2 {
     font-size: 14px;
+  }
+  h3 {
+    font-size: 16px;
   }
   h4 {
     font-size: 12px;
@@ -134,16 +133,42 @@ footer .social-links i:hover {
   .about-me-wrapper {
     margin: 10px 10px;
   }
+  .aboutme-video {
+    width: 99%;
+  }
   .wrapper {
     margin: 10px;
     padding: 30px;
   }
+  .project-description {
+    padding: 0px;
+    margin: 0px;
+  }
+  .project-photos {
+    margin: 0;
+  }
   .btn-customized {
     font-size: 10px;
+  }
+  .go-top {
+    font-size: 8px;
+    margin-bottom: 10px;
   }
 
   div.cv {
     padding: 0px;
     margin: 0px;
+  }
+  footer a {
+    font-size: 15px;
+  }
+  footer .contact-me {
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  footer img {
+    display: inline;
+    width: 50px;
   }
 }

@@ -47,6 +47,10 @@ div.cv {
   padding: 0px 120px;
   margin: 0px;
 }
+nav .last-update{
+  font-size: 12px;
+  padding: 2px 0px 0px 450px;
+}
 .about {
   color: var(--main-color);
 }

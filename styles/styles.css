@@ -94,6 +94,18 @@ img.packaging {
 .contact-me {
   font-size: 14px;
 }
+.go-top{
+  font-size: 12px;
+  color: var(--main-color);
+  background: var(--primary-color);
+  padding: 10px 20px;
+  text-align: center
+  ;
+  display: block;
+  margin: 0px 150px;
+}
+
+
 footer  a {
   font-size: 30px;
   padding: 8px;

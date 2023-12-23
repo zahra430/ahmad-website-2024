@@ -20,7 +20,7 @@ h2 {
 }
 h3 {
   color: var(--secondary-color);
-  font-size: 20px;
+  font-size: 26px;
   text-align: start;
 }
 h4 {
@@ -79,6 +79,7 @@ div.cv {
   color: var(--main-color);
   background: var(--secondary-color);
 }
+
 img.packaging {
   width: 60%;
 }

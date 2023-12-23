@@ -86,12 +86,11 @@ img.packaging {
 .contact-me {
   font-size: 14px;
 }
-footer .linkedin-icon {
+footer  a {
+  font-size: 30px;
   padding: 8px;
   border-radius: 15px;
-  background: black;
-
-  color: var(--secondary-color);
+  color: #392a1a;
 }
 footer .social-links i:hover {
   background: black;

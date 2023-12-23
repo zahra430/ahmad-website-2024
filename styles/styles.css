@@ -62,7 +62,7 @@ nav .last-update{
 }
 .wrapper {
   position: relative;
-  margin: 10px 50px;
+  margin: 10px 80px;
   background: var(--primary-color);
 }
 .nav-color {
@@ -74,6 +74,9 @@ nav .last-update{
 }
 .project-photos {
   margin: 10px 350px;
+}
+.big-letter{
+  font-size: 30px;
 }
 .carousel-item {
   transition: transform 1s ease-in-out;
@@ -117,7 +120,6 @@ footer .social-links i:hover {
   }
 
   .about-me-wrapper {
-    position: relative;
     margin: 10px 10px;
   }
   .wrapper {

@@ -86,6 +86,42 @@ nav .last-update {
   color: var(--main-color);
   background: var(--secondary-color);
 }
+.container {
+  position: relative;
+}
+.go-to-link {
+  text-decoration: none;
+  color: var(--main-color);
+  
+}
+.go-to-btn {
+  position: fixed;
+  font-size: 12px;
+  color: var(--main-color);
+  background: var(--secondary-color);
+  font-weight: bold;
+  padding: 8px 34px;
+}
+
+.bnm-project {
+  top: 250px;
+  left: 20px;
+}
+.alfred-project{
+  top: 300px;
+  left: 20px;
+  padding: 8px 20px;
+ 
+}
+.solin-project{
+  top: 350px;
+  left: 20px; 
+}
+.aysu-project{
+   top: 400px;
+  left: 20px; 
+  padding: 8px 20px;
+}
 
 img.packaging {
   width: 60%;
@@ -140,7 +176,7 @@ footer .contact-me {
     margin: 10px;
     padding: 30px;
   }
- 
+
   .project-description {
     padding: 0px;
     margin: 0px;

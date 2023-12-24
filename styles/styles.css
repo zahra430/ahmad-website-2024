@@ -89,10 +89,8 @@ nav .last-update {
 .container {
   position: relative;
 }
-button :hover {
-  color: var(--main-color);
-  background: var(--primary-color);
-}
+
+
 .go-to-bnm-link {
   position: fixed;
   top: 250px;
@@ -103,6 +101,10 @@ button :hover {
   background: #c2642d;
   font-weight: bold;
   padding: 8px 34px;
+}
+.go-to-bnm-link :hover{
+    color: var(--main-color);
+  background: var(--background-color);
 }
 .go-to-alfred-link {
   position: fixed;

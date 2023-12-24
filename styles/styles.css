@@ -89,37 +89,53 @@ nav .last-update {
 .container {
   position: relative;
 }
-.go-to-link {
-  text-decoration: none;
+button :hover {
   color: var(--main-color);
-  
+  background: var(--primary-color);
 }
-.go-to-btn {
+.go-to-bnm-link {
   position: fixed;
+  top: 250px;
+  left: 20px;
+  text-decoration: none;
   font-size: 12px;
-  color: var(--main-color);
-  background: var(--secondary-color);
+  color: var(--primary-color);
+  background: #c2642d;
   font-weight: bold;
   padding: 8px 34px;
 }
-
-.bnm-project {
-  top: 250px;
-  left: 20px;
-}
-.alfred-project{
+.go-to-alfred-link {
+  position: fixed;
   top: 300px;
   left: 20px;
-  padding: 8px 20px;
- 
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--primary-color);
+  background: #944746;
+  font-weight: bold;
+  padding: 8px 31px;
 }
-.solin-project{
+
+.go-to-solin-link {
+  position: fixed;
   top: 350px;
-  left: 20px; 
+  left: 20px;
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--primary-color);
+  background: #4674bf;
+  font-weight: bold;
+  padding: 8px 34px;
 }
-.aysu-project{
-   top: 400px;
-  left: 20px; 
+.go-to-aysu-link{
+   position: fixed;
+  top: 400px;
+  left: 20px;
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--primary-color);
+  background: #8d44d1;
+  font-weight: bold;
   padding: 8px 20px;
 }
 

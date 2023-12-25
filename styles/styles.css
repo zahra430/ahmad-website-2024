@@ -231,6 +231,9 @@ footer .contact-me {
     text-align: center;
     margin-bottom: 20px;
   }
+  .contact-me-content {
+    font-size: 10px;
+  }
   footer img {
     display: inline;
     width: 50px;

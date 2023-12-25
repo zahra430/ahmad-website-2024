@@ -37,6 +37,9 @@ p {
   margin-bottom: 0;
   text-align: justify;
 }
+p .big-letter {
+  font-size: 30px;
+}
 
 section {
   border: 1px solid var(--primary-color);
@@ -50,6 +53,9 @@ div.cv {
 nav .last-update {
   font-size: 12px;
   padding: 2px 0px 0px 450px;
+}
+.second-article {
+  color: var(--main-color);
 }
 .about {
   color: var(--main-color);
@@ -75,9 +81,7 @@ nav .last-update {
 .project-photos {
   margin: 10px 350px;
 }
-.big-letter {
-  font-size: 30px;
-}
+
 .carousel-item {
   transition: transform 1s ease-in-out;
 }
@@ -118,7 +122,6 @@ nav .last-update {
   padding: 8px 31px;
   border-radius: 0px;
 }
-
 
 .go-to-solin-link {
   position: fixed;

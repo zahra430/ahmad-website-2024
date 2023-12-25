@@ -239,4 +239,10 @@ footer .contact-me {
   footer .contact-me {
     font-size: 10px;
   }
+  nav .last-update {
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    font-size: 8;
+  }
 }

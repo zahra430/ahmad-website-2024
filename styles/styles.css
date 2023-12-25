@@ -90,7 +90,6 @@ nav .last-update {
   position: relative;
 }
 
-
 .go-to-bnm-link {
   position: fixed;
   top: 250px;
@@ -101,9 +100,10 @@ nav .last-update {
   background: #c2642d;
   font-weight: bold;
   padding: 8px 34px;
+  border-radius: 0px;
 }
-.go-to-bnm-link :hover{
-    color: var(--main-color);
+.go-to-bnm-link :hover {
+  color: var(--main-color);
   background: var(--background-color);
 }
 .go-to-alfred-link {
@@ -116,7 +116,9 @@ nav .last-update {
   background: #944746;
   font-weight: bold;
   padding: 8px 31px;
+  border-radius: 0px;
 }
+
 
 .go-to-solin-link {
   position: fixed;
@@ -128,9 +130,10 @@ nav .last-update {
   background: #4674bf;
   font-weight: bold;
   padding: 8px 34px;
+  border-radius: 0px;
 }
-.go-to-aysu-link{
-   position: fixed;
+.go-to-aysu-link {
+  position: fixed;
   top: 400px;
   left: 20px;
   text-decoration: none;
@@ -139,6 +142,7 @@ nav .last-update {
   background: #8d44d1;
   font-weight: bold;
   padding: 8px 20px;
+  border-radius: 0px;
 }
 
 img.packaging {

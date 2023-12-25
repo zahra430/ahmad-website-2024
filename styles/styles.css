@@ -67,6 +67,12 @@ nav .last-update {
   padding: 0px 10px;
   background: var(--primary-color);
 }
+.publications-wrapper {
+  position: relative;
+  padding: 30px 20px;
+  margin: 10px 80px;
+  background: var(--primary-color);
+}
 .wrapper {
   position: relative;
   margin: 10px 80px;
@@ -197,6 +203,10 @@ footer .contact-me {
   }
   .aboutme-video {
     width: 99%;
+  }
+  .publications-wrapper {
+    padding: 10px;
+    margin: 10px;
   }
   .wrapper {
     margin: 10px;
